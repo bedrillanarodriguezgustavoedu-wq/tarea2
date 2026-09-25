@@ -1,0 +1,70 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  color: #111315;
+  background: #494949;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-shell {
+  border-radius: 18px 18px 0 0;
+}
+
+.brand-mark {
+  border: 1.5px solid currentColor;
+}
+
+.plane-photo {
+  background:
+    linear-gradient(118deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.24) 52%, rgba(0, 0, 0, 0.82)),
+    url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1800&q=90') center/cover no-repeat;
+  filter: grayscale(1) contrast(1.18);
+}
+
+.ship-scene::before {
+  content: "";
+  position: absolute;
+  inset: 10px 12px 0 0;
+  border-radius: 18px 18px 80px 80px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ship::before {
+  content: "";
+  position: absolute;
+  inset: 12px 18px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 9px 9px 54px 54px;
+}
+
+.ship::after {
+  content: "";
+  position: absolute;
+  left: 42%;
+  top: -62px;
+  width: 2px;
+  height: 94px;
+  background: rgba(255, 255, 255, 0.88);
+  transform: rotate(48deg);
+  transform-origin: bottom;
+}
+
+.calc-tabs button.active {
+  color: #fff;
+  background: #181c1e;
+}
+
+@media (max-width: 800px) {
+  .page-shell {
+    border-radius: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

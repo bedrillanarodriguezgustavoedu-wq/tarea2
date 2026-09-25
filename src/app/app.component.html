@@ -1,0 +1,290 @@
+<div class="page-shell mx-auto max-w-[1188px] bg-[#d6d7d9] px-6 pb-0 pt-7 shadow-[0_18px_40px_rgba(12,13,14,0.08)] sm:px-10 lg:px-14">
+  <header class="mb-4">
+    <div class="brand inline-flex items-center gap-[7px] text-[15px] font-bold tracking-[-0.04em] text-[#1c1e20]">
+      <span class="brand-mark flex h-[15px] w-[15px] items-center justify-center rounded-full border border-current text-[8px] leading-none">◌</span>
+      <span>CargoTown</span>
+    </div>
+  </header>
+
+  <section class="grid min-h-[304px] items-end gap-6 lg:grid-cols-[0.96fr_1.34fr]">
+    <div class="relative z-10 pt-2.5">
+      <h1 class="m-0 text-[clamp(3.8rem,6.2vw,7.7rem)] font-extrabold leading-[0.8] tracking-[-0.09em] text-[#111315]">
+        Cargo. Delivery.<br><span class="text-[#f7f7f7]">Worldwide.</span>
+      </h1>
+
+      <div class="mt-7 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+        <button type="button" (click)="calculator.scrollIntoView({ behavior: 'smooth' })" class="inline-flex h-[52px] min-w-[176px] items-center justify-between gap-5 rounded-full border-0 bg-[#c9cbcd] px-5 py-0 text-[15px] font-bold text-[#1e2123] transition hover:-translate-y-0.5 hover:bg-[#b9bcc0]">
+          Order Delivery <span class="text-[22px] leading-none">→</span>
+        </button>
+        <p class="m-0 text-[12px] leading-[1.35] text-[#555b5e]">
+          We help our customers to get<br>and provide reliable delivery<br>services
+        </p>
+      </div>
+    </div>
+
+    <div class="relative min-h-[300px] overflow-hidden" aria-hidden="true">
+      <div class="ship-scene relative h-[300px] w-full translate-x-[8px] translate-y-[4px] rotate-[-12deg] opacity-95">
+        <div class="ship absolute left-[8%] top-[46px] h-[176px] w-full rounded-[18px_18px_80px_80px] border-[3px] border-white/90 border-t-0 bg-white/5" style="transform: perspective(420px) rotateX(30deg);">
+          <div class="ship-top absolute left-[18%] right-[12%] top-[26px] h-[72px] border-[2px] border-white/80 bg-[repeating-linear-gradient(90deg,transparent_0_20px,rgba(255,255,255,0.75)_21px_23px)]"></div>
+          <div class="ship-body absolute inset-x-[6%] bottom-[18px] h-[58px] rounded-b-[55px] border-[2px] border-white/80"></div>
+          <div class="ship-window absolute bottom-[44px] left-[30%] right-[18%] h-[22px] border-[2px] border-white/80"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-[18px]" aria-label="Cargo Air transport">
+    <div class="plane-photo h-[292px] w-full rounded-[32px]"></div>
+  </section>
+
+  <section class="mt-[70px]">
+    <h2 class="mb-6 text-[clamp(2.7rem,4vw,4.7rem)] font-extrabold leading-[0.98] tracking-[-0.075em] text-[#111315]">
+      Customized solutions<br>for your business
+    </h2>
+
+    <div class="grid gap-[22px] md:grid-cols-3">
+      <article class="min-h-[150px] rounded-[12px] border border-black/10 bg-white/5 px-[18px] pb-[12px] pt-0 shadow-[0_8px_24px_rgba(17,19,21,0.04)] transition hover:-translate-y-1 hover:bg-white/10 hover:shadow-[0_12px_28px_rgba(17,19,21,0.08)]">
+        <h3 class="-mt-5 mb-[14px] text-[31px] font-bold tracking-[-0.07em] text-white">By Land</h3>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Cost</span><strong class="text-[13px] font-bold tracking-[-0.04em]">From $2.5 per lbs</strong></div>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Weight</span><strong class="text-[13px] font-bold tracking-[-0.04em]">Up to 44,000 lbs</strong></div>
+      </article>
+
+      <article class="min-h-[150px] rounded-[12px] border border-black/10 bg-white/5 px-[18px] pb-[12px] pt-0 shadow-[0_8px_24px_rgba(17,19,21,0.04)] transition hover:-translate-y-1 hover:bg-white/10 hover:shadow-[0_12px_28px_rgba(17,19,21,0.08)]">
+        <h3 class="-mt-5 mb-[14px] text-[31px] font-bold tracking-[-0.07em] text-white">By Air</h3>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Cost</span><strong class="text-[13px] font-bold tracking-[-0.04em]">From $9 per lbs</strong></div>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Weight</span><strong class="text-[13px] font-bold tracking-[-0.04em]">Up to 20,000 lbs</strong></div>
+      </article>
+
+      <article class="min-h-[150px] rounded-[12px] border border-black/10 bg-white/5 px-[18px] pb-[12px] pt-0 shadow-[0_8px_24px_rgba(17,19,21,0.04)] transition hover:-translate-y-1 hover:bg-white/10 hover:shadow-[0_12px_28px_rgba(17,19,21,0.08)]">
+        <h3 class="-mt-5 mb-[14px] text-[31px] font-bold tracking-[-0.07em] text-white">By Sea</h3>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Cost</span><strong class="text-[13px] font-bold tracking-[-0.04em]">From $2.5 per lbs</strong></div>
+        <div class="flex items-baseline justify-between gap-2.5 py-2"><span class="text-[9px] uppercase text-[#676d70]">Weight</span><strong class="text-[13px] font-bold tracking-[-0.04em]">∞</strong></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="mt-[82px] border-t border-black/10 pt-[34px]" aria-labelledby="services-title">
+    <div class="mb-3 text-[9px] font-bold uppercase tracking-[0.14em] text-[#686e70]">WHY CARGOTOWN</div>
+    <h2 id="services-title" class="m-0 text-[clamp(2.5rem,4vw,4.5rem)] font-extrabold leading-[0.96] tracking-[-0.075em] text-[#111315]">
+      Everything your cargo<br>needs to move forward
+    </h2>
+    <div class="mt-9 grid gap-3.5 md:grid-cols-3">
+      <article class="min-h-[178px] rounded-[12px] bg-[#c7c9cb] p-5" *ngFor="let service of services">
+        <span class="text-[11px] font-bold text-[#73797b]">0{{ services.indexOf(service) + 1 }}</span>
+        <h3 class="mt-[38px] mb-2.5 text-[20px] font-bold tracking-[-0.05em] text-[#111315]">{{ service.title }}</h3>
+        <p class="m-0 max-w-[245px] text-[12px] leading-[1.4] text-[#5b6163]">{{ service.text }}</p>
+      </article>
+    </div>
+    <div class="mt-8 grid gap-5 border-t border-black/10 pt-[23px] md:grid-cols-3" aria-label="CargoTown achievements">
+      <div class="flex items-baseline gap-2.5"><strong class="text-[27px] tracking-[-0.07em] text-[#111315]">35+</strong><span class="text-[10px] text-[#686e70]">countries served</span></div>
+      <div class="flex items-baseline gap-2.5"><strong class="text-[27px] tracking-[-0.07em] text-[#111315]">98%</strong><span class="text-[10px] text-[#686e70]">on-time deliveries</span></div>
+      <div class="flex items-baseline gap-2.5"><strong class="text-[27px] tracking-[-0.07em] text-[#111315]">24/7</strong><span class="text-[10px] text-[#686e70]">shipment support</span></div>
+    </div>
+  </section>
+
+  <section class="mt-[82px] grid gap-[54px] lg:grid-cols-[0.9fr_1.1fr]" #calculator>
+    <div>
+      <h2 class="m-0 text-[clamp(2.8rem,4vw,4.4rem)] font-extrabold leading-[0.96] tracking-[-0.075em] text-[#111315]">
+        Find out the price<br>right now —<br>use our <span class="text-white">shipping</span><br>cost calculator
+      </h2>
+    </div>
+
+    <div class="pt-[6px]" aria-label="Shipping calculator">
+      <div class="mb-[14px] grid gap-2.5">
+        <div class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">SHIPPING METHOD</div>
+        <div class="grid overflow-hidden rounded-[8px] border border-black/10 md:grid-cols-3">
+          <button *ngFor="let method of shippingMethods" type="button" [class.active]="method === selectedMethod" (click)="selectedMethod = method; calculateEstimate()" class="h-[32px] border-0 border-r border-black/10 bg-transparent text-[10px] font-bold tracking-[0.02em] text-[#444a4c] last:border-r-0">
+            {{ method }}
+          </button>
+        </div>
+      </div>
+
+      <div class="grid gap-3">
+        <div class="grid gap-1.5">
+          <label class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">Type of goods</label>
+          <select class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" [(ngModel)]="typeOfGoods">
+            <option>General Cargo</option>
+            <option>Electronics</option>
+            <option>Furniture</option>
+            <option>Pharmaceuticals</option>
+          </select>
+        </div>
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <div class="grid gap-1.5">
+            <label class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">Weight</label>
+            <input class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" type="number" min="0" aria-label="Weight in pounds" [(ngModel)]="weight" />
+          </div>
+          <div class="flex items-end">
+            <span class="flex h-[36px] w-full items-center justify-end rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#70767a]">lb</span>
+          </div>
+        </div>
+
+        <div class="grid gap-3">
+          <div class="grid gap-1.5">
+            <label class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">Dimensions</label>
+            <div class="grid gap-3 md:grid-cols-3">
+              <span class="block text-[9px] text-[#6a6f72]">Height <input class="mt-1.5 h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" type="number" min="0" aria-label="Height in inches" [(ngModel)]="height" /></span>
+              <span class="block text-[9px] text-[#6a6f72]">Width <input class="mt-1.5 h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" type="number" min="0" aria-label="Width in inches" [(ngModel)]="width" /></span>
+              <span class="block text-[9px] text-[#6a6f72]">Length <input class="mt-1.5 h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" type="number" min="0" aria-label="Length in inches" [(ngModel)]="length" /></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <div class="grid gap-1.5">
+            <label class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">From</label>
+            <select class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" [(ngModel)]="fromCountry">
+              <option>USA</option>
+              <option>Canada</option>
+              <option>Mexico</option>
+              <option>Brazil</option>
+            </select>
+          </div>
+          <div class="grid gap-1.5">
+            <label class="text-[8px] font-bold uppercase tracking-[0.12em] text-[#676d70]">To</label>
+            <select class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" [(ngModel)]="toCountry">
+              <option>Mexico</option>
+              <option>USA</option>
+              <option>Canada</option>
+              <option>Brazil</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <select class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" [(ngModel)]="fromCity">
+            <option>Chicago</option>
+            <option>New York</option>
+            <option>Los Angeles</option>
+            <option>Toronto</option>
+          </select>
+          <select class="h-[36px] w-full rounded-[7px] border border-black/10 bg-white/5 px-3 text-[10px] text-[#343a3d]" [(ngModel)]="toCity">
+            <option>Mexico City</option>
+            <option>Guadalajara</option>
+            <option>Monterrey</option>
+            <option>Chicago</option>
+          </select>
+        </div>
+
+        <div class="flex items-center justify-between rounded-[8px] bg-white/20 px-3 py-2.5" *ngIf="estimatedCost !== null">
+          <span class="text-[9px] uppercase text-[#686d6f]">Estimated total</span>
+          <strong class="text-[17px] tracking-[-0.04em] text-[#111315]">{{ estimatedCost | currency:'USD':'symbol':'1.0-0' }}</strong>
+        </div>
+
+        <p class="m-0 text-[10px] text-[#9c2424]" *ngIf="estimateError" role="alert">{{ estimateError }}</p>
+        <button class="mt-1 inline-flex h-[38px] w-[130px] items-center justify-center rounded-full border-0 bg-[#c9cbcd] px-4 text-[15px] font-bold text-[#1e2123] transition hover:-translate-y-0.5 hover:bg-[#b9bcc0]" type="button" (click)="calculateEstimate()">Estimate</button>
+        <p class="-mt-0.5 m-0 text-[9px] leading-[1.4] text-[#6d7274]" *ngIf="estimateSubmitted">Estimate based on the information provided. Final pricing may vary.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-[86px] grid gap-[54px] border-t border-black/10 pt-[34px] lg:grid-cols-[0.9fr_1.1fr]">
+    <div>
+      <div class="mb-3 text-[9px] font-bold uppercase tracking-[0.14em] text-[#686e70]">LET'S WORK TOGETHER</div>
+      <h2 class="m-0 text-[clamp(2.5rem,4vw,4.5rem)] font-extrabold leading-[0.96] tracking-[-0.075em] text-[#111315]">Have a shipment<br>in mind?</h2>
+      <p class="mt-6 max-w-[310px] text-[13px] leading-[1.5] text-[#5b6163]">Tell us what you need to move and our logistics team will get back to you with the best route.</p>
+    </div>
+    <form class="grid gap-[14px]" (ngSubmit)="submitContact()" novalidate>
+      <div class="grid gap-3 md:grid-cols-2">
+        <label class="grid gap-1.5 text-[9px] font-bold uppercase tracking-[0.1em] text-[#686e70]">
+          Name
+          <input class="w-full rounded-[8px] border border-black/10 bg-white/10 px-3 py-[11px] text-[12px] text-[#25292b] outline-0 focus:border-[#24282a]" type="text" name="contactName" [(ngModel)]="contactName" autocomplete="name" required>
+        </label>
+        <label class="grid gap-1.5 text-[9px] font-bold uppercase tracking-[0.1em] text-[#686e70]">
+          Email
+          <input class="w-full rounded-[8px] border border-black/10 bg-white/10 px-3 py-[11px] text-[12px] text-[#25292b] outline-0 focus:border-[#24282a]" type="email" name="contactEmail" [(ngModel)]="contactEmail" autocomplete="email" required>
+        </label>
+      </div>
+      <label class="grid gap-1.5 text-[9px] font-bold uppercase tracking-[0.1em] text-[#686e70]">
+        Message
+        <textarea class="w-full resize-y rounded-[8px] border border-black/10 bg-white/10 px-3 py-[11px] text-[12px] text-[#25292b] outline-0 focus:border-[#24282a]" name="contactMessage" [(ngModel)]="contactMessage" rows="4" required></textarea>
+      </label>
+      <p class="m-0 text-[10px] text-[#9c2424]" *ngIf="contactError" role="alert">{{ contactError }}</p>
+      <p class="m-0 text-[10px] text-[#236b43]" *ngIf="contactSubmitted" role="status">Thanks! Our team will contact you shortly.</p>
+      <button class="inline-flex h-[38px] w-fit items-center justify-center gap-6 rounded-full border-0 bg-[#c9cbcd] px-4 text-[15px] font-bold text-[#1e2123] transition hover:-translate-y-0.5 hover:bg-[#b9bcc0]" type="submit">Send request <span class="text-[17px] leading-none">→</span></button>
+    </form>
+  </section>
+
+  <section class="mt-[82px] grid gap-[54px] pb-[84px] lg:grid-cols-[0.9fr_1.1fr]">
+    <h2 class="m-0 text-[clamp(3rem,4vw,4.1rem)] font-extrabold leading-[1] tracking-[-0.075em] text-[#111315]">FAQs</h2>
+
+    <div class="border-t border-black/10">
+      <details class="border-b border-black/10 py-[18px]" open>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">Why do our clients choose us?</summary>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">How do we deliver?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">We combine local pickup partners with dedicated land, air and sea routes so your shipment stays visible from pickup to delivery.</p>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]" open>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">Do you provide shipping insurance?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">We offer insurance, but the final decision is up to you. The insurance covers 1% of the value of the goods when delivered by sea, and 2% when it’s delivered by air or by air. Some goods have special, higher prices for insurance. Such goods include laptops, smartphones, and other electronics. We also only insure goods when the goods have been packed properly and in full.</p>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">How do we check the goods?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">Our teams verify package condition, labels and dimensions before dispatch to help prevent delays.</p>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">How do we pack the goods?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">We recommend durable outer packaging, internal cushioning and clear handling labels. Our team can also advise on special cargo.</p>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">How to get the cargo?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">Choose pickup or delivery during your quote request and we will coordinate the handoff with you.</p>
+      </details>
+
+      <details class="border-b border-black/10 py-[18px]">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-[15px] text-[16px] font-bold tracking-[-0.04em] text-[#23272a]">How to calculate all expenses?</summary>
+        <p class="mt-[18px] m-0 text-[11px] leading-[1.6] text-[#5e6467]">Use the calculator for an estimate, then contact us for duties, insurance and route-specific fees.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="mt-0 grid gap-[60px] bg-[#171a1d] px-6 py-[42px] text-[#eef0f0] sm:px-10 lg:grid-cols-[1.2fr_2fr] lg:px-[58px] lg:pb-[56px]">
+    <div>
+      <div class="inline-flex items-center gap-[7px] text-[15px] font-bold tracking-[-0.04em] text-[#eef0f0]">
+        <span class="flex h-[15px] w-[15px] items-center justify-center rounded-full border border-current text-[8px] leading-none">◌</span>
+        <span>CargoTown</span>
+      </div>
+      <div class="mt-6 text-[9px] text-[#8a8e90]">© CargoTown 2026</div>
+    </div>
+
+    <div class="grid gap-7 md:grid-cols-3">
+      <div>
+        <h4 class="m-0 mb-[14px] text-[8px] font-bold uppercase tracking-[0.12em] text-[#8f9294]">CARGO TOWN</h4>
+        <ul class="m-0 grid list-none gap-2 p-0 text-[10px] text-[#f0f2f2]">
+          <li>Restaurants</li>
+          <li>Grocery</li>
+          <li>Pharmacy</li>
+          <li>Retail</li>
+          <li>Delivery Suppliers</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="m-0 mb-[14px] text-[8px] font-bold uppercase tracking-[0.12em] text-[#8a8e90]">COMPANY</h4>
+        <ul class="m-0 grid list-none gap-2 p-0 text-[10px] text-[#f0f2f2]">
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="m-0 mb-[14px] text-[8px] font-bold uppercase tracking-[0.12em] text-[#8a8e90]">TERMS FOR</h4>
+        <ul class="m-0 grid list-none gap-2 p-0 text-[10px] text-[#f0f2f2]">
+          <li>Platform</li>
+          <li>Privacy Policy</li>
+          <li>Security</li>
+          <li>Delivery Providers</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
