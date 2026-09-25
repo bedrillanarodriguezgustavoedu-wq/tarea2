@@ -1,59 +1,71 @@
-# AngularApp
+# CargoTown Landing Page
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Landing page responsive para una empresa de logística y transporte internacional, desarrollada con Angular y Tailwind CSS.
 
-## Development server
+## Descripción
 
-To start a local development server, run:
+Este proyecto recrea una interfaz moderna para una marca de carga y envíos, con secciones como:
 
-```bash
-ng serve
-```
+- Hero principal
+- Soluciones por transporte
+- Servicios destacados
+- Calculadora de costos
+- Formulario de contacto
+- Preguntas frecuentes
+- Footer institucional
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Tecnologías
 
-## Code scaffolding
+- Angular
+- TypeScript
+- Tailwind CSS
+- HTML/CSS
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Requisitos
 
-```bash
-ng generate component component-name
-```
+- Node.js
+- npm
+- Angular CLI
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Instalación
 
 ```bash
-ng test
+npm install
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+## Ejecución
 
 ```bash
-ng e2e
+npm start
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+La aplicación estará disponible en:
 
-## Additional Resources
+```bash
+http://localhost:4200
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Compilación para producción
+
+```bash
+npm run build
+```
+
+## Estructura principal
+
+```bash
+src/
+  app/
+    app.component.ts
+    app.component.html
+    app.component.css
+  styles.css
+```
+
+## Autor
+
+Bedri L. / Gustavo
+
+## GitHub
+
+https://github.com/bedrillanarodriguezgustavoedu-wq/tarea2
